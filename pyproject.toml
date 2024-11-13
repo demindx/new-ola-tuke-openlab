@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "jarvis"
+version = "0.1.0"
+description = ""
+authors = ["SerMeliodas <oliver9574@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+thefuzz = "^0.22.1"
+tuke-openlab = {version = "^0.0.4", source = "tuke"}
+openai = "^1.54.3"
+google-generativeai = "^0.8.3"
+django-environ = "^0.11.2"
+
+
+[[tool.poetry.source]]
+name = "tuke"
+url = "https://repo.kpi.fei.tuke.sk/repository/pypi/simple"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
