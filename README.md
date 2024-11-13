@@ -18,7 +18,7 @@ pip install -r requirements.txt
 poetry install
 ```
 
-And if you are going to use google gemini generate your own [api key][https://aistudio.google.com/apikey]  and add it to .env file in project directory
+And if you are going to use google gemini generate your own [api key](https://aistudio.google.com/apikey)  and add it to .env file in project directory
 
 
 ## Running the app
