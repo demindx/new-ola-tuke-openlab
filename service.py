@@ -46,7 +46,7 @@ class OlaServis:
             "turn_off_lights": self.turn_off_lights,
             # display 2x2
             "turn_on_display_2x2": self.turn_on_display_2x2,
-            "turn_off_display_2xw": self.turn_off_display_2x2,
+            "turn_off_display_2x2": self.turn_off_display_2x2,
             # vertical displays
             "turn_on_display_vertical": self.turn_on_vertical_displays,
             "turn_off_display_vertical": self.turn_off_vertical_displays,
